@@ -1,5 +1,4 @@
-# Bike-Sharing1
-Problem Statement
+#Problem Statement
 A bike-sharing system is a service in which bikes are made available for shared use to individuals on a short term basis for a price or free. Many bike share systems allow people to borrow a bike from a "dock" which is usually computer-controlled wherein the user enters the payment information, and the system unlocks it. This bike can then be returned to another dock belonging to the same system.
 
 
@@ -16,6 +15,14 @@ How well those variables describe the bike demands
 Based on various meteorological surveys and people's styles, the service provider firm has gathered a large dataset on daily bike demands across the American market based on some factors. 
 
 
-Business Goal:
+#Business Goal:
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market. 
 
+#Conclusion
+We can see the demand for bikes depends mainly on below variables:
+spring,Winter,January,July,September,Light rain_Light snow_Thunderstorm,Mist_cloudy,yr,temp,windspeed.
+•	Summer is the most popular season for renting bikes, followed by spring and winter, which is expected given that the weather is ideal for motorcycling.
+•	Additionally, the median number of bike rentals is increasing year over year, with 2019 having a higher median than 2018, potentially due to the growing popularity of bike rentals and people's increased environmental consciousness.
+•	Furthermore, the data suggests that the larger median for fall months is reflected in the overall spread in the month plot, which is likely due to the seasonal weather changes. In terms of rental patterns, people tend to rent more frequently on non-holiday days than on holidays, which could be attributed to a preference for spending time with family and using personal vehicles.
+•	Interestingly, while the overall median for bike rentals is consistent across all days, the spread of rentals is larger on Saturdays and Wednesdays.
+•	Finally, the data indicates that clear skies are optimal for renting bikes as they provide ideal temperate conditions with little humidity and cooler temperatures.
